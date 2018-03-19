@@ -1,4 +1,4 @@
-﻿using System;
+﻿using CardTestProject.NonCombat;
 
 namespace CardTestProject
 {
@@ -6,7 +6,8 @@ namespace CardTestProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game g = new Game();
+            g.Start();
         }
     }
 }
